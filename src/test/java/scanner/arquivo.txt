@@ -1,0 +1,6 @@
+atirei 
+o pau
+no 
+gato
+/sandbox/src/test/java/scanner/arquivo.txt
+/Users/williansromera/Desktop/workspace/sandbox/src/test/java/scanner/arquivo.txt
