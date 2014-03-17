@@ -1,14 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>sandbox</groupId>
-  <artifactId>sandbox</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>sandbox</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sandbox</groupId>
+	<artifactId>sandbox</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>sandbox</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -33,12 +34,24 @@
 			<artifactId>selenium-java</artifactId>
 			<version>2.39.0</version>
 		</dependency>
-			<dependency>
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.8.5</version>
+		</dependency>
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>codehaus</id>
+			<url>http://repository.codehaus.org/org/codehaus</url>
+		</repository>
+	</repositories>
 
 </project>
